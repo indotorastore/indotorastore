@@ -1,7 +1,7 @@
 GNU nano 6.3        spam-wa.py
 import requests, os
 
-url_api_spam_wa= "https://aink-sanz.herokuapp.com>
+url_api_spam_wa= ""https://aink-sanz.herokuapp.com/api/free-tutorial-spam-wa">
 
 os.system("clear")
 os.system("figlet Spam-wa")
