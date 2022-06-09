@@ -13,8 +13,8 @@ data = {
 "nomor":nomor
 }
 for free_tutorial in range(int(jumlah)):
-        sanz = requests.get(url_api_spam_wa, para>
-if "Berhasil ngab ! .. Subrek Yt FREE TUTORIAL." >
+        sanz = requests.get(url_api_spam_wa, params=data)
+if "Berhasil ngab ! .. Subrek Yt FREE TUTORIAL." in sanz.text:
         print("[+] Berhasil Ngab")
 else:
         print("[!] Gagal Ngab")
